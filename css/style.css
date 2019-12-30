@@ -13,16 +13,16 @@ body{
   width: 100%;
   line-height: 100px;
   height: 100px;
-  border-bottom: 2px solid #C0C0C0;
+  border-bottom: 1px solid #C0C0C0;
 }
 .wrapper{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%;
+  width: 70%;
   height: 100px;
   margin: 0 auto;
-  border-bottom: 2px solid #C0C0C0;
+  border-bottom: 1px solid #C0C0C0;
 }
 /*logo*/
 .logo{
@@ -100,4 +100,13 @@ body{
   .img_logo{
     width: 100%;
   }
+}
+/*jumbo-text*/
+.jumbo_text{
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  background-color: yellow;
+  text-align: center;
+  vertical-align: middle;
 }
