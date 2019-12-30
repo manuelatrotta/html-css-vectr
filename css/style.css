@@ -4,15 +4,19 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #000;
+  background-color: #222425;
   font-family: 'Montserrat', sans-serif;
 }
 /*header-nav*/
 .header-nav{
-  display: fixed;
+  position: fixed;
+  z-index: 2;
+  top:0;
+  left: 0;
   width: 100%;
-  line-height: 100px;
   height: 100px;
+  line-height: 100px;
+  background-color: #222425;
   border-bottom: 1px solid #C0C0C0;
 }
 .wrapper{
@@ -69,15 +73,12 @@ body{
   border: 2px solid #9f9831;
   color: #fff;
   font-size: 16px;
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
 .btn_border_grey{
   border: 2px solid #C0C0C0;
 }
-.list-menu li:hover .btn{
-  color: #9f9831;
-  background-color: rgba(0, 0, 0, 0.3);
-}
+
 #burger{
   visibility: hidden;
   color: #fff;
@@ -101,12 +102,42 @@ body{
     width: 100%;
   }
 }
+/*heder-jumbo*/
+.header-jumbo{
+  margin-top: 170px;
+  background: linear-gradient(#232424, #202527);
+}
 /*jumbo-text*/
 .jumbo_text{
-  width: 50%;
+  width: 55%;
   height: 200px;
   margin: 0 auto;
-  background-color: yellow;
   text-align: center;
+  line-height: 20px;
   vertical-align: middle;
+  color: #C0C0C0;
+}
+.title_jumbo{
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.header-jumbo p {
+  margin-bottom: 25px;
+}
+.jumbo_text button{
+  width: 25%;
+  height: 25%;
+}
+.img_jumbo{
+  width: 70%;
+  margin: 0 auto;
+}
+.image_jumbo{
+  width: 100%;
+  margin-top: 30px;
+}
+button:hover{
+  color: #9f9831;
+  background-color: rgba(0, 0, 0, 0.3);
 }
