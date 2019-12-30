@@ -5,6 +5,7 @@
 }
 body{
   background-color: #000;
+  font-family: 'Montserrat', sans-serif;
 }
 /*header-nav*/
 .header-nav{
@@ -39,11 +40,13 @@ body{
 .list-menu li{
   display: inline-block;
   list-style: none;
+}
+.margin_left_20{
   margin-left: 20px;
 }
 .list-menu li a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   color: #C0C0C0;
   text-transform: capitalize;
 }
@@ -55,10 +58,21 @@ body{
   border-bottom: 3px solid #4a84a2;
 }
 .btn{
-  width: 70px;
-  height: 25px;
-  border-radius: 5px;
+  height: 30px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #000;
+  overflow: hidden;
+  border-radius: 2px;
   border: 2px solid #9f9831;
+  color: #fff;
+  font-size: 16px;
+  text-transform: lowercase;
+}
+.btn_border_grey{
+  border: 2px solid #C0C0C0;
 }
 .list-menu li:hover .btn{
   color: #9f9831;
