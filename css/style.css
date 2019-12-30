@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: red;
+  background-color: #000;
 }
 /*header-nav*/
 .header-nav{
@@ -12,8 +12,7 @@ body{
   width: 100%;
   line-height: 100px;
   height: 100px;
-  background-color: yellow;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #C0C0C0;
 }
 .wrapper{
   display: flex;
@@ -22,13 +21,11 @@ body{
   width: 80%;
   height: 100px;
   margin: 0 auto;
-  background-color: orange;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #C0C0C0;
 }
 /*logo*/
 .logo{
   width: 20%;
-  background-color: green;
 }
 .img_logo{
   width: 45%;
@@ -36,8 +33,7 @@ body{
   text-align: justify;
 }
 .list-nav{
-  width: 40%;
-  background-color: purple;
+  width: 50%;
 }
 /*list-menu*/
 .list-menu li{
@@ -45,9 +41,25 @@ body{
   list-style: none;
   margin-left: 20px;
 }
+.list-menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #C0C0C0;
+  text-transform: capitalize;
+}
+.list-menu li:hover a{
+  color: #fff;
+}
+.list-menu li:hover .border_bottom{
+  padding-bottom: 5px;
+  border-bottom: 3px solid #4a84a2;
+}
 .btn{
   width: 70px;
   height: 25px;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 2px solid #9f9831;
+}
+.list-menu li:hover .btn{
+  color: #9f9831;
 }
