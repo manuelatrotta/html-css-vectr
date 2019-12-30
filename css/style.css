@@ -10,6 +10,7 @@ body{
 .header-nav{
   display: fixed;
   width: 100%;
+  line-height: 100px;
   height: 100px;
   background-color: yellow;
   border-bottom: 2px solid black;
@@ -24,11 +25,29 @@ body{
   background-color: orange;
   border-bottom: 2px solid black;
 }
+/*logo*/
 .logo{
   width: 20%;
   background-color: green;
 }
+.img_logo{
+  width: 45%;
+  vertical-align: middle;
+  text-align: justify;
+}
 .list-nav{
-  width: 60%;
+  width: 40%;
   background-color: purple;
+}
+/*list-menu*/
+.list-menu li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+}
+.btn{
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid black;
 }
