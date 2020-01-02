@@ -7,6 +7,7 @@ body{
   background-color: #222425;
   font-family: 'Montserrat', sans-serif;
 }
+
 /*header-nav*/
 .header-nav{
   position: fixed;
@@ -144,18 +145,20 @@ button:hover{
   flex-direction: row;
   justify-content: space-between;
   width: 70%;
-  height: 400px;
   margin: 0 auto;
-  background-color: pink;
+  background-color: #fff;
 }
 .logo{
   width: calc(100% / 5);
-  overflow: hidden;
-
 }
 .img_logs{
-  width: 500px;
-  height: 100px;
+  width: 70%;
+  vertical-align: middle;
+  margin: 20px 10px;
+}
+#net{
+  width: 40%;
+  margin: 18px 40px;
 }
 @media screen and (max-width: 945px){
   .list-menu{
