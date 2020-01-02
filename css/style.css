@@ -167,35 +167,58 @@ button:hover{
   flex-wrap: wrap;
   width: 100%;
   padding: 40px;
-  background-color: pink;
+  background-color: #fff;
 }
 .text_tutorials{
+  position: relative;
   width: 40%;
-  background-color: yellow;
-  padding: 50px 30px;
-  color: #C0C0C0;
+  padding: 150px 30px;
+  color: #99a6aa;
 }
 .img_tutorials{
   width: 60%;
-  background-color: red;
-  padding: 0 50px;
+  padding: 50px;
 }
 .image_tutorials{
-  width: 100%;
+  width: 750px;
 }
 #appleonbook{
   width: 20px;
-  margin-right: 20px;
 }
 .title_tutorials{
   display: inline-block;
   font-size: 30px;
-  color: #000;
+  font-weight: bold;
+  color: #3b4447;
   margin: 20px 0;
 }
+.under_title_tutorials{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 30px;
+  height: 3px;
+  border-radius: 2px;
+  width: 30px;
+  border: 1px solid #c8dce2;
+  background: rgba(200,220,226,0.25);
+  height: 4px;
+}
 .tutorial{
+  margin-top: 20px;
+  text-decoration: none;
   font-size: 16px;
+  font-weight: bold;
   color: #24c1ed;
+  border-bottom: 2px solid #91e0f6;
+}
+.tutorials .text_tutorials p{
+  margin: 20px 0;
+}
+.tutorials .text_tutorials span{
+  font-size: 14px;
+  color: #8c9ba0;
+  margin-right: 15px;
 }
 @media screen and (max-width: 945px){
   .list-menu{
