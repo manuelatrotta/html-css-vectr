@@ -161,11 +161,16 @@ button:hover{
   margin: 18px 40px;
 }
 /*section tutorials*/
+.container_tutorials{
+  width: 100%;
+  background-color: #fff;
+}
 .tutorials{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   padding: 40px;
   background-color: #fff;
 }
