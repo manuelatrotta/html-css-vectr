@@ -160,6 +160,43 @@ button:hover{
   width: 40%;
   margin: 18px 40px;
 }
+/*section tutorials*/
+.tutorials{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 40px;
+  background-color: pink;
+}
+.text_tutorials{
+  width: 40%;
+  background-color: yellow;
+  padding: 50px 30px;
+  color: #C0C0C0;
+}
+.img_tutorials{
+  width: 60%;
+  background-color: red;
+  padding: 0 50px;
+}
+.image_tutorials{
+  width: 100%;
+}
+#appleonbook{
+  width: 20px;
+  margin-right: 20px;
+}
+.title_tutorials{
+  display: inline-block;
+  font-size: 30px;
+  color: #000;
+  margin: 20px 0;
+}
+.tutorial{
+  font-size: 16px;
+  color: #24c1ed;
+}
 @media screen and (max-width: 945px){
   .list-menu{
     display: none;
@@ -191,4 +228,9 @@ button:hover{
     width: 70%;
     height: 50px;
   }
+  .text_tutorials,
+  .img_tutorials{
+    width: 100%;
+  }
+
 }
