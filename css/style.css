@@ -172,7 +172,6 @@ button:hover{
   width: 90%;
   margin: 0 auto;
   padding: 40px;
-  background-color: #fff;
 }
 .text_tutorials{
   position: relative;
@@ -224,6 +223,10 @@ button:hover{
   font-size: 14px;
   color: #8c9ba0;
   margin-right: 15px;
+}
+/*section url*/
+#url{
+  background-color: #1f2324;
 }
 @media screen and (max-width: 945px){
   .list-menu{
